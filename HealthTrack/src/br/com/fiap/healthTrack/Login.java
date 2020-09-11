@@ -7,7 +7,7 @@ package br.com.fiap.healthTrack;
  * @version 1.0
  */
 public class Login {
-	S/** 
+	/** 
 	 * Username 
 	 */
 	String username;
@@ -31,9 +31,9 @@ public class Login {
 
 
 	public Login(String username, String email, String senhaHash) {
-		this.setUsername(username)
-		this.setEmail(email)
-		this.setSenhaHash(senhaHash)
+		this.setUsername(username);
+		this.setEmail(email);
+		this.setSenhaHash(senhaHash);
 	}
 	
 	/**

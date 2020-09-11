@@ -52,13 +52,13 @@ public class Endereco {
 	}
 
 	public Endereco(String cep, String tipoLogradouro, String logradouro, String bairro, String cidade, String estado, String tipoEndereco, String complemento) {
-		this.setComplemento(complemento)
-		this.setEstado(estado)
-		this.setTipoLogradouro(tipoLogradouro)
-		this.setTipoEndereco(tipoEndereco)
-		this.setBairro(bairro)
-		this.setCidade(cidade)
-		this.setLogradouro(logradouro)
+		this.setComplemento(complemento);
+		this.setEstado(estado);
+		this.setTipoLogradouro(tipoLogradouro);
+		this.setTipoEndereco(tipoEndereco);
+		this.setBairro(bairro);
+		this.setCidade(cidade);
+		this.setLogradouro(logradouro);
 	}
 
 

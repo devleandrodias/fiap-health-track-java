@@ -37,11 +37,11 @@ public class Telefone {
 	}
 
 	public Telefone(int ddi, int ddd, String tipoContato, int prefixo, int sufixo) {
-		this.setDdi(ddi)
-		this.setTipoContato(tipoContato)
-		this.setPrefixo(prefixo)
-		this.setSufixo(sufixo)
-		this.setDdd(ddd)
+		this.setDdi(ddi);
+		this.setTipoContato(tipoContato);
+		this.setPrefixo(prefixo);
+		this.setSufixo(sufixo);
+		this.setDdd(ddd);
 	}
 	
 	/**

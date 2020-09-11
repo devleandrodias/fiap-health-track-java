@@ -40,11 +40,11 @@ public class Assinatura {
 	}
 
 	public Assinatura(String tipoAssinatura, Date dataInicio, Date dataEncerramento, String descricao, float valorUnitarioAssinatura) {
-		this.setTipoAssinatura(tipoAssinatura)
-		this.setDataInicio(dataInicio)
-		this.setDataEncerramento(dataEncerramento)
-		this.setDescricao(descricao)
-		this.setValorUnitarioAssinatura(valorUnitarioAssinatura)
+		this.setTipoAssinatura(tipoAssinatura);
+		this.setDataInicio(dataInicio);
+		this.setDataEncerramento(dataEncerramento);
+		this.setDescricao(descricao);
+		this.setValorUnitarioAssinatura(valorUnitarioAssinatura);
 	}
 	
 	/**

@@ -29,8 +29,8 @@ public class PlanoAlimentacao {
 
 
 	public PlanoAlimentacao(int quantidadeIngerida, Date dataRefeicao) {
-		this.setQuantidadeIngerida(quantidadeIngerida)
-		this.setDataRefeicao(dataRefeicao)
+		this.setQuantidadeIngerida(quantidadeIngerida);
+		this.setDataRefeicao(dataRefeicao);
 	}
 
 	/**

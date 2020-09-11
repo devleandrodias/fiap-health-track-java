@@ -7,7 +7,7 @@ package br.com.fiap.healthTrack;
  * @version 1.0
  */
 public class Exercicio {
-	S/** 
+	/** 
 	 * TempoDuracaoMinutos 
 	 */
 	int tempoDuracaoMinutos;
@@ -37,10 +37,10 @@ public class Exercicio {
 
 
 	public Exercicio(String nome, String descricao, int tempoDuracaoMinutos, float gastoCalorico) {
-		this.setTempoDuracaoMinutos(tempoDuracaoMinutos)
-		this.setGastoCalorico(gastoCalorico)
-		this.setDescricao(descricao)
-		this.setNome(nome)
+		this.setTempoDuracaoMinutos(tempoDuracaoMinutos);
+		this.setGastoCalorico(gastoCalorico);
+		this.setDescricao(descricao);
+		this.setNome(nome);
 	}
 
 	/**

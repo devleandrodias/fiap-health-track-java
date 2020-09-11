@@ -1,7 +1,5 @@
 package br.com.fiap.healthTrack;
 
-import java.util.Date;
-
 /**
  * Classe Usuário
  * @author Leandro Dias
@@ -23,11 +21,7 @@ public class Usuario {
 	 *	Status  
 	 */
 	String status;
-	
-	/**
-	 *	Data nascimento
-	 */
-	Date dataNascimento;
+
 	
 	/**
 	 *	Peso atual
@@ -63,11 +57,10 @@ public class Usuario {
 		
 	}
 	
-	public Usuario(String cpf, String nome, String Status, Date dataNascimento, float pesoAtual, float alturaAtual, float metaPeso, String objetivo, String sexo, String urlImagemPerfil) {
+	public Usuario(String cpf, String nome, String Status, float pesoAtual, float alturaAtual, float metaPeso, String objetivo, String sexo, String urlImagemPerfil) {
 		this.setCpf(cpf);
 		this.setNome(nome);
 		this.setStatus(Status);
-		this.setDataNascimento(dataNascimento);
 		this.setPesoAtual(pesoAtual);
 		this.setAltura(alturaAtual);
 		this.setMetaPeso(metaPeso);
@@ -76,12 +69,30 @@ public class Usuario {
 		this.setUrlImagemPerfil(urlImagemPerfil);
 	}
 	
+	/**
+	 * Inclui um novo usuário
+	 */
 	public void incluir() {
 		// Lógica
 	}
 	
+	/**
+	 * Atualiza usuário
+	 */
 	public void atualizar() {
 		// Lógica
+	}
+	
+	/**
+	 * Calcula quanto falta para atingir a meta de peso
+	 */
+	public String calculaPesoRestante() {
+		float pesoAtual = this.getPesoAtual();
+		float metaPeso = this.getMetaPeso();
+		float diferenca = pesoAtual - metaPeso;
+		String mensagem = "Faltam ".concat(Float.toString(diferenca)).concat("kg para atingir a sua meta.");
+		
+		return mensagem;
 	}
 	
 	public String getCpf() {
@@ -106,14 +117,6 @@ public class Usuario {
 	
 	public void setStatus(String status) {
 		this.status = status;
-	}
-	
-	public Date getDataNascimento() {
-		return dataNascimento;
-	}
-	
-	public void setDataNascimento(Date dataNascimento) {
-		this.dataNascimento = dataNascimento;
 	}
 	
 	public float getPesoAtual() {
