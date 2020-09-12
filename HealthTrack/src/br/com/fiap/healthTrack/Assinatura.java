@@ -1,14 +1,13 @@
 package br.com.fiap.healthTrack;
 
-/**
- * Classe Assinatura
- * @author Leandro Dias
- * @author Daniel Caires
- * @version 1.0
- */
-
 import java.util.Date;
 
+/**
+* Classe Assinatura
+* @author Leandro Dias
+* @author Daniel Caires
+* @version 1.0
+*/
 public class Assinatura {
 	/** 
 	 * TipoAssinatura 
@@ -58,7 +57,7 @@ public class Assinatura {
 	 * Cancela uma assinatura
 	 */
 	public void cancelarAssinatura() {
-		// Lógica	
+		System.out.println("Sua assinatura foi cancelada com sucesso");
 	}
 	
 	/**

@@ -53,11 +53,16 @@ public class Usuario {
 	 */
 	String urlImagemPerfil;
 	
+	/**
+	 *	Assinatura do usuário
+	 */
+	Assinatura assinatura;
+	
 	public Usuario() {
 		
 	}
 	
-	public Usuario(String cpf, String nome, String Status, float pesoAtual, float alturaAtual, float metaPeso, String objetivo, String sexo, String urlImagemPerfil) {
+	public Usuario(String cpf, String nome, String Status, float pesoAtual, float alturaAtual, float metaPeso, String objetivo, String sexo, String urlImagemPerfil, Assinatura assinatura) {
 		this.setCpf(cpf);
 		this.setNome(nome);
 		this.setStatus(Status);
@@ -67,6 +72,7 @@ public class Usuario {
 		this.setObjetivo(objetivo);
 		this.setSexo(sexo);
 		this.setUrlImagemPerfil(urlImagemPerfil);
+		this.setAssinatura(assinatura);
 	}
 	
 	/**
@@ -165,5 +171,13 @@ public class Usuario {
 	
 	public void setUrlImagemPerfil(String urlImagemPerfil) {
 		this.urlImagemPerfil = urlImagemPerfil;
+	}
+	
+	public Assinatura getAssinatura() {
+		return assinatura;
+	}
+	
+	public void setAssinatura(Assinatura assinatura) {
+		this.assinatura = assinatura;
 	}
 }

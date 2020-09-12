@@ -1,15 +1,14 @@
 package br.com.fiap.healthTrack;
 
+import java.util.Date;
+import java.util.List;
+
 /**
- * Classe PlanoAlimentacao
+ * Classe Plano de Alimentação
  * @author Leandro Dias
  * @author Daniel Caires
  * @version 1.0
  */
-
-import java.util.Date;
-import java.util.List;
-
 public class PlanoAlimentacao {
 	/** 
 	 * DataRefeicao 
